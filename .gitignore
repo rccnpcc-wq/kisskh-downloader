@@ -1,0 +1,17 @@
+﻿# Ignore Python environment and build files
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore log files and generated content
+*.log
+geckodriver.log
+chromedriver.log
+
+# Ignore downloaded media files and link lists
+# This prevents videos and large lists from being accidentally committed.
+*.mp4
+*.mkv
+*.ts
+*.txt
+*/final_links.txt
